@@ -1,13 +1,17 @@
 import { memo } from "react";
 import { RiStoreLine } from "react-icons/ri";
 import { LuUserRound } from "react-icons/lu";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export const Header = memo(() => {
+  const navigate = useNavigate();
   return (
     <header className="h-25 w-full bg-[#2B2B2B]">
       <div className="px-40 flex items-center justify-between size-full">
-        <div className="text-white text-2xl  gap-2 flex items-center">
+        <div
+          onClick={() => navigate("/")}
+          className="text-white text-2xl  gap-2 flex items-center"
+        >
           <RiStoreLine className="text-purple-600" />
           <p>NFT Marketplace</p>
         </div>

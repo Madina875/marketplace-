@@ -2,6 +2,7 @@ import { memo } from "react";
 import { useRoutes } from "react-router-dom";
 import Home from "../../pages/home";
 import MainLayout from "../layout/MainLayout";
+import { NotFound } from "../../pages/not-found";
 
 const AppRouter = () => {
   const router = useRoutes([
@@ -10,7 +11,7 @@ const AppRouter = () => {
       element: <MainLayout />,
       children: [
         { path: "", element: <Home /> },
-        { path: "*", element: <div className="text-3xl">NotFound</div> },
+        { path: "*", element: <NotFound /> },
       ],
     },
   ]);

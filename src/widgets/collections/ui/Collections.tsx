@@ -15,45 +15,51 @@ export const Collections = memo(() => {
         <div className="h-full flex gap-[30px]">
           <div className="w-[330px] h-[89%]">
             <div className="grid grid-cols-3 size-full gap-5">
-              <div className="grid border col-span-3 row-span-3"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid col-span-3 h-15 border">
-                <p>DSGN Animals</p>
+              <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="col-span-3 h-15 flex items-start justify-center flex-col gap-1">
+                <p className="text-white text-[20px] font-medium">
+                  DSGN Animals
+                </p>
                 <div className="flex items-center justify-center gap-2 text-white">
-                  <p className="bg-blue-950 size-5 rounded-full"></p>
-                  <p>Animakid</p>
+                  <p className="bg-green-300 size-5 rounded-full"></p>
+                  <p className="text-gray-200 text-[15px]">Animakid</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="w-[330px] h-[89%]">
             <div className="grid grid-cols-3 size-full gap-5">
-              <div className="grid border col-span-3 row-span-3"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid col-span-3 h-15 border">
-                <p>DSGN Animals</p>
+              <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="col-span-3 h-15 flex items-start justify-center flex-col gap-1">
+                <p className="text-white text-[20px] font-medium">
+                  DSGN Animals
+                </p>
                 <div className="flex items-center justify-center gap-2 text-white">
-                  <p className="bg-blue-950 size-5 rounded-full"></p>
-                  <p>Animakid</p>
+                  <p className="bg-green-300 size-5 rounded-full"></p>
+                  <p className="text-gray-200 text-[15px]">Animakid</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="w-[330px] h-[89%]">
             <div className="grid grid-cols-3 size-full gap-5">
-              <div className="grid border col-span-3 row-span-3"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid border row-span-1"></div>
-              <div className="grid col-span-3 h-15 border">
-                <p>DSGN Animals</p>
+              <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
+              <div className="col-span-3 h-15 flex items-start justify-center flex-col gap-1">
+                <p className="text-white text-[20px] font-medium">
+                  DSGN Animals
+                </p>
                 <div className="flex items-center justify-center gap-2 text-white">
-                  <p className="bg-blue-950 size-5 rounded-full"></p>
-                  <p>Animakid</p>
+                  <p className="bg-green-300 size-5 rounded-full"></p>
+                  <p className="text-gray-200 text-[15px]">Animakid</p>
                 </div>
               </div>
             </div>
