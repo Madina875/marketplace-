@@ -8,7 +8,7 @@ import { FiInstagram } from "react-icons/fi";
 export const Footer = memo(() => {
   return (
     <footer className="h-[330px] w-full bg-[#2B2B2B]">
-      <div className="container flex justify-between pt-[40px] text-[#CCCCCC]">
+      <div className="container flex flex-col lg:flex-row justify-between pt-[40px] text-[#CCCCCC]">
         <div className="w-70">
           <div className="text-white text-2xl mb-6 gap-2 flex items-center">
             <RiStoreLine />

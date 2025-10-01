@@ -15,8 +15,8 @@ export const Creators = memo(() => {
             View Rankings
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-[30px]  my-[60px]">
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[30px]  my-[60px]">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -28,7 +28,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -40,7 +40,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -52,7 +52,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -64,7 +64,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -76,7 +76,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -88,7 +88,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -100,7 +100,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -112,7 +112,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -124,7 +124,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -136,7 +136,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>
@@ -148,7 +148,7 @@ export const Creators = memo(() => {
               </p>
             </div>
           </div>
-          <div className="h-[235px] flex flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
+          <div className="h-[235px] flex  lg:flex-col relative items-center justify-center  bg-[#3B3B3B] rounded-2xl">
             <div className="absolute bottom-[80%] right-[80%] text-gray-400 bg-[#2B2B2B] size-[30px] rounded-full flex items-center justify-center">
               1
             </div>

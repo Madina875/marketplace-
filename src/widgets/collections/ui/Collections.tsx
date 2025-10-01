@@ -12,8 +12,8 @@ export const Collections = memo(() => {
             Checkout our weekly updated trending collection.
           </p>
         </div>
-        <div className="h-full flex gap-[30px]">
-          <div className="w-[330px] h-[89%]">
+        <div className="h-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+          <div className="md:w-full lg:w-[330px] h-[89%]">
             <div className="grid grid-cols-3 size-full gap-5">
               <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
               <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
@@ -30,7 +30,7 @@ export const Collections = memo(() => {
               </div>
             </div>
           </div>
-          <div className="w-[330px] h-[89%]">
+          <div className="md:w-full lg:w-[330px] md:flex hidden h-[89%]">
             <div className="grid grid-cols-3 size-full gap-5">
               <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
               <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
@@ -47,7 +47,7 @@ export const Collections = memo(() => {
               </div>
             </div>
           </div>
-          <div className="w-[330px] h-[89%]">
+          <div className="lg:w-[330px] h-[89%] lg:flex hidden md:hidden">
             <div className="grid grid-cols-3 size-full gap-5">
               <div className="grid rounded-2xl col-span-3 row-span-3 bg-[#5c9d77]"></div>
               <div className="grid row-span-1 rounded-2xl bg-[#5c9d77]"></div>
